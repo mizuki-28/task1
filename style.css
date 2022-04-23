@@ -3,6 +3,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+  margin: 0;
 }
 
 a {
@@ -280,6 +281,17 @@ header {
   font-size: 12px;
   line-height: 18px;
 }
+
+/* hover */
+.header-logo:hover {
+    opacity: 80%;
+  }
+.header-menu-item:hover {
+    opacity: 80%;
+  }
+.firstview-buttons a:hover {
+    opacity: 80%;
+  }
 
 /* 1080px以下 */
 @media screen and (max-width: 1080px) {
